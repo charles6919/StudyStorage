@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainClasses">
+      <UniqueIdentifier>{fc684500-8c74-43c4-a7be-3ea66a8165b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainClasses\0.Shader">
+      <UniqueIdentifier>{cb435d9f-c582-4174-8b3a-d3bc3132c095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainClasses\1.MainGame">
+      <UniqueIdentifier>{200c4079-1e61-4d1d-8f7e-39ce94165655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainClasses\2.Manager">
+      <UniqueIdentifier>{7aa3514e-480b-4d60-a000-9f7bb6aedc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainClasses\3.Objects">
+      <UniqueIdentifier>{929143ec-4396-47fd-8914-62823f4d32d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses">
+      <UniqueIdentifier>{33841e65-deac-4c8b-9379-9c6718c5cc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses\0.Basics">
+      <UniqueIdentifier>{da9f671f-5291-486c-aebe-ea7d48931d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainClasses\2.Manager\File">
+      <UniqueIdentifier>{fe7a211a-ca24-45e9-b65f-560f46529df3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DxComponent.h">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="iGameNode.h">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamProject.h">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Clip.h">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive2DObejct.h">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>MainClasses\2.Manager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>GameClasses\0.Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>GameClasses\0.Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject2D.h">
+      <Filter>GameClasses\0.Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="TilesInfo.h">
+      <Filter>GameClasses\0.Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamProject.cpp">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Clip.cpp">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive2DObejct.cpp">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>MainClasses\3.Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>MainClasses\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MainClasses\1.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>MainClasses\2.Manager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>GameClasses\0.Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>GameClasses\0.Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject2D.cpp">
+      <Filter>GameClasses\0.Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TeamProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\_Shader\Color.hlsl">
+      <Filter>MainClasses\0.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\_Shader\Sprite.hlsl">
+      <Filter>MainClasses\0.Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
